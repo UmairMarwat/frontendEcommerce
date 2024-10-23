@@ -1,0 +1,13 @@
+.hovere:hover{
+    background-color: brown;
+    
+}
+
+.navbar-menu .active div {
+    color: darkblue;
+}
+.register-pic{
+    background-image: url("./images/back.png");
+    background-size: cover;
+}
+

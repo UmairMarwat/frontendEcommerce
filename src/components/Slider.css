@@ -1,0 +1,17 @@
+.slider-btn{
+    display: flex;
+    justify-content: center;
+}
+.posi{
+    position:absolute;
+    width:4.5rem ;
+    left:0px;
+    top: 0px;
+    bottom:50px;
+    color:white;
+}
+.hero-img {
+    width: 100%;
+    background-size: auto;
+    /* height: 72%; */
+}

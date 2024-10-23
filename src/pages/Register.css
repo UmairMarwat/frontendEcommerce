@@ -1,0 +1,9 @@
+.register-pic{
+    background-image: url(/public/images/background1.jpg);
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),center;
+      opacity:0.9;
+}

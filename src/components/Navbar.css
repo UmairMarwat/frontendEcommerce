@@ -1,0 +1,109 @@
+.Container {
+height:70px;
+font-size: 36px;
+background-color: rgb(200, 157, 157);
+}
+.Wrapper{
+padding:10px 20px;
+display:flex;
+justify-content: space-between;
+align-items:center;
+}
+
+/* const Left = styled.div`
+flex:1;
+display:flex;
+align-items:center;`
+const Language = styled.span`
+font-size:14px;`
+
+const SearchContainer = styled.div`
+border:0.5px solid lightgray;
+display:flex;
+align-items:center;
+padding:5px;
+margin-left:15px;`
+const Input = styled.input`
+border:none;
+`
+
+
+
+const Center = styled.div`
+flex:1;
+font-weight:bold;
+
+text-align:center;`
+
+
+
+const Right = styled.div`
+flex:1;
+display:flex;
+align-items:center;
+justify-content:flex-end;
+`
+
+const MenuItems = styled.div`
+font-size:14px;
+margin:10px;
+cursor:pointer;
+` */
+
+.user-profile {
+    position: relative;
+}
+
+.user-profile ul {
+    width: auto;
+    padding: 0;
+    display: none;
+    border-radius: 7px;
+    position: absolute;
+    right: 1rem;
+    background-color: white;
+    overflow: hidden;
+}
+
+.user-profile ul li {
+    list-style: none;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: white;
+    color:#000;
+}
+
+.user-profile ul li:hover {
+    background-color: none;
+  
+}
+
+.user-profile:hover ul {
+    display: block;
+    position: absolute;
+    right:0px;
+    top:25px;
+}
+
+.shopping-cart-icon {
+    position: relative;
+    box-sizing: initial;
+}
+
+.shopping-cart-icon::after {
+    position: absolute;
+    content: attr(data-total);
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 45%;
+    padding: 4px;
+    left: -16px;
+    top: -16px;
+    font-size: 0.7rem;
+    display: flex;
+    background-color: red;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
